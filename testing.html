@@ -29,7 +29,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item active"><a class="nav-link text-warning" onclick="FindProjects()">See Projects<span class="sr-only">(current)</span></a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="#">About Me</a></li> -->
-                    <li class="nav-item"><a class="nav-link" onclick="FindContactMe()">Contact Me</a></li>
+                    <li class="nav-item"><a class="nav-link text-info" onclick="FindContactMe()">Contact Me</a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="#">Leave Message</a></li> -->
                     <!-- <li class="nav-item"><a class="nav-link" href="#">Facial Recognition</a></li> -->
                 </ul>
@@ -76,13 +76,30 @@
             </p>
         </div>
     </div>
-    <br>
     <div id="videobox">
         <br>
         <hr>
         <h1 id="ProjectsTitle" class="text-center">Projects</h1>
         <hr>
         <br>
+        <div class="projectvideo">
+            <video id="Wanderlust" width="950"  autoplay loop>
+                <source src="Wanderlust.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="projectinfo">
+            <h4>Wanderlust</h4><hr>
+            <h6>E-Commerce Travel Products Website</h6>
+            <p>Responsive e-commerce website tailored to travelers. This team project utilized MEAN stack to develop a single-page web-application with Angular 6 Front-end framework, Node.js server, Express.js web-framework, MongoDB NoSQL Database, and RESTful API.</p>
+            <p><b><u>Features:</u></b> Auth0 3rd Party Authentication Login, Facial Recognition Login, Stripe API checkout, RxJS Real-Time Product Filter Search</p>
+            <ul>
+                <li><u class="gameinfobullet">Design:</u> Front-end designed as single-page app and styled with Angular Material and Bootstrap.</li>
+                <li><u class="gameinfobullet">RxJS:</u> Products are queried in real-time with a library for Reactive programming using observables.</li>
+                <li><u class="gameinfobullet">Facial Recognition:</u> User can Login and Register with Facial Recognition utilizing Kairos API and WebRTC library.</li>
+                <li><u class="gameinfobullet">Auth0:</u> User can Login with email or Social Media using 3rd party Authentication for more security.</li>
+            </ul>
+            <p><b><a href="https://github.com/thydev/acommerce">GitHub Link</a></b></p>
+        </div>
         <div class="projectinfo">
             <h4>FunRooms</h4><hr>
             <h6>Real-Time Multi-Game App & Message Room</h6>
@@ -133,23 +150,6 @@
             <video id="ECommerce" width="950"  autoplay loop>
                 <source src="NetCore_ecommerce.mp4" type="video/mp4">
             </video>
-        </div>
-        <div class="projectvideo">
-            <video id="Wanderlust" width="950"  autoplay loop>
-                <source src="" type="video/mp4">
-            </video>
-        </div>
-        <div class="projectinfo">
-            <h4>Wanderlust</h4><hr>
-            <h6>E-Commerce Travel Products Website</h6>
-            <p>Responsive e-commerce website tailored to travelers. This team project utilized MEAN stack to develop a single-page web-application with Angular 6 Front-end framework, Node.js server, Express.js web-framework, MongoDB NoSQL Database, and RESTful API.</p>
-            <p><b><u>Features:</u></b> Auth0 3rd Party Authentication Login, Facial Recognition Login, Stripe API checkout, RxJS Real-Time Product Filter Search</p>
-            <ul>
-                <li><u class="gameinfobullet">Design:</u> Front-end designed as single-page app and styled with Angular Material and Bootstrap.</li>
-                <li><u class="gameinfobullet">RxJS:</u> Products are queried in real-time with a library for Reactive programming using observables.</li>
-                <li><u class="gameinfobullet">Facial Recognition:</u> User can Login and Register with Facial Recognition utilizing Kairos API and WebRTC library.</li>
-            </ul>
-            <p><b><a href="https://github.com/thydev/acommerce">GitHub Link</a></b></p>
         </div>
     </div>
     <br>

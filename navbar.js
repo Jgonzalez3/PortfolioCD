@@ -16,6 +16,8 @@ $(document).ready(function(){
     Vid2.pause();
     let Vid3 = document.getElementById("FunRooms");
     Vid3.pause();
+    let Vid4 = document.getElementById("Wanderlust");
+    Vid4.pause();
     
 
     $(window).scroll(function(s){
@@ -31,10 +33,12 @@ $(document).ready(function(){
             Vid1.play();
             Vid2.play();
             Vid3.play();
+            Vid4.play();
         } else{
             Vid1.pause();
             Vid2.pause();
             Vid3.pause();
+            Vid4.pause();
         }
         if(screenTop<= currentScroll){
             $("#NavBar").show();
