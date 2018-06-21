@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="The Fantastic Portfolio of Javier Gonzalez III. Web Developer proficient in C#, JavaScript, TypeScript and Python; seeking new opportunities.">
+    <meta name="keywords" content="HTML,CSS,JavaScript,jQuery,videos,Portfolio,Bootstrap, Web Developer,Javier,Gonzalez,Javier Gonzalez III,for hire,freelance,C#,Python,MEAN,ASP.NET Core, .NET, .NET Core, Angular, Node.js,Node,Express,MongoDB,SQLite,PostgreSQL">
+    <meta name="author" content="Javier Gonzalez III">
+    <title>Javier's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="videos.js"></script>
+    <script src="navbar.js"></script>
+</head>
+
+<body>
+    <nav id="NavBar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-success" href="#">Javier's Portfolio</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#NavBarMain" aria-controls="NavBarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div id="NavBarMain" class="navbar-collapse collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link text-warning" onclick="FindProjects()">See Projects<span class="sr-only">(current)</span></a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#">About Me</a></li> -->
+                    <li class="nav-item"><a class="nav-link" onclick="FindContactMe()">Contact Me</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#">Leave Message</a></li> -->
+                    <!-- <li class="nav-item"><a class="nav-link" href="#">Facial Recognition</a></li> -->
+                </ul>
+            </div>
+            <!-- <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search...Tech...Project" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+    </nav>
+    <div class="header">
+        <h1 id="title" class="text-center">Welcome to Javier's Portfolio</h1><br>
+        <div class="contact-box">
+            <h4 class="text-center">Feel Free To Contact or Connect with Me Below:</h4>
+            <div class="text-center"><span style="display: inline-block"><a href="mailto:javig56@gmail.com"><img class="icon" src="img/contactme/gmail-logo-icon.png"></a> <a href="mailto:javig56@gmail.com" class="contact">javig56@gmail.com</a></span> <span style="display: inline-block"><a href="https://www.linkedin.com/in/javier-gonzalez3/"><img class="icon" src="img/contactme/linkedin.png"></a> <a class="contact" href="https://www.linkedin.com/in/javier-gonzalez3/">javier-gonzalez3</a></span> <span style="display: inline-block"><a href="https://github.com/Jgonzalez3"><img class="icon" src="img/contactme/github.png"></a> <a class="contact" href="https://github.com/Jgonzalez3">Jgonzalez3</a></span> </div>
+        </div>
+    </div>
+    <br><br>
+    <div id="aboutme" class="aboutme">
+        <div id="aboutMeTitle">
+            <h3 class="text-center">About Me....</h3>
+            <p>Welcome, my name is Javier Gonzalez III. I am a Full Stack Web Developer proficient in C#, JavaScript and TypeScript languages looking for new opportunities to apply my talents and skills so I can improve or create web products, services, and applications for you or your company. I have a background in Financial Services, Housing Services, Social Services, and public policy. Native born Californian to immigrant Mexican mother, transplanted to Seattle in 2010 for college and have never left since. You gotta enjoy the Seattle clean air and green environment. Lovely place to live, especially during the summer.</p>
+        </div>
+        <img id="spaceNeedle" src="img/aboutme/seattle_spaceneedle.jpg">
+        <img id="hollywood" src="img/aboutme/california_hollywood.jpg">
+        <div id="aboutMeEducation">
+            <h3 class="text-center">Education</h3>
+            <p>Received my B.A. from the University of Washington in Seattle, WA. Go Huskies! Then a few years later I received a Certificate in Web Development from Coding Dojo. At Coding Dojo I learned Front-end technologies such as HTML, CSS, JavaScript, Bootstrap, jQuery, and AJAX plus 3 Full Stacks with Python/Django, C#/ASP.NET Core, and MEAN. Developed 3 projects with a team with each full stack, all which will be showcased below and can be found on my <a href="https://github.com/Jgonzalez3">GitHub</a>, please feel free to see all my other projects on GitHub, otherwise my best projects thus far are below.</p>
+        </div>
+        <img id="huskies" src="img/aboutme/UW_Huskies_stadium700x400.png">
+        <div id="aboutMePostCollege">
+            <h3 class="text-center">Post College...</h3>
+            <p>After College I found employment with the goverment working in Social Services trying to be a part of something greater than myself, wanting to help those in need and who are less fortunate in today's socio-economic environment. Discovered after a few years that social services can be a rather taxing job, thats when I decided to make an educational choice to purse technology skills training, highly in demand skills, or one of my favorite subjects Finance/Investing. After careful consideration and analysis, I stuck with programming since such skills will be needed in the near future as they are in todays society. Not to mention the career path is rather lucrative and lots of potential growth, thus creating many opportunities for new businesses, upward mobility, and high wages.</p>
+        </div>
+        <img id="codeBlock" src="img/aboutme/code.jpg">
+        <img id="money" src="img/aboutme/money.jpg">
+        <div id="aboutMeHobbies">
+            <h3 class="text-center">Hobbies</h3>
+            <p>My favorite hobbies are: Sports, Web Development, Finance. Sports is my number 1 with my favorite being football, Go Huskies!! Go Packers!! followed by basketball then soccer.
+            <br><br>
+            Web Developement has become one of my most recent new hobbies. I enjoy learning new tech, methods, and frameworks that allow programmers to develop awesome entertaining or productivity applications. The vast amount of technology and rate of new technologies created allows for continuous education, always something to learn, never allowing for a dull moment. Always something new to engineer for better efficiency and user experience. I love the problem solving challenges that developers must face to complete their goals, the challenges allow me to use my analytical skills, critical thinking skills and desire for problem solving to be creative with my technical skills in an extraordinary way.
+            <br><br>
+            Lastly Finance! I have always had a somewhat keen knowledge of Money. As a child I would always be intrigued by money, how it works, how to use it best, and get more of it. As a result I grew up learning to become frugal. Finance is an important subject to learn in today's society, I am just sad to see the educational system not addressing this topic as well as it needs to. Let's address an important date in all our American lives. When you turn 18, you become an adult and society deems you an adult ready and responsible enough to face the world. Let me ask you, did you know how credit cards worked, investing, 401K, interest rates, bonds, stocks, loans, budgeting, saving, etc... all during highschool? Most will answer no, which is a problem and creates barriers. Anyways, I have come to love finance after learning about investing, you see there are 3 main things that have motivated me to invest. 1.) The Great Recession: never truly understood economics nor how markets work but the impact of that recession made me want to learn to prevent personal financial disaster, 2.) College: Education in economics and accounting courses taught me how money functions in this world, 3.) Working in Social Services: I worked with elderly low-income public clients, learned from their financial retirement mistakes and listened carefully to their financial stories. I wanted to ensure I would never experience the same situations. My favorite book is The Intelligent Investor by Benjamin Graham. An excellent book on value investing, an instrinstic approach written by the man who mentored one of the richest men in the world today, Warren Buffett.
+            </p>
+        </div>
+    </div>
+    <br>
+    <div id="videobox">
+        <br>
+        <hr>
+        <h1 id="ProjectsTitle" class="text-center">Projects</h1>
+        <hr>
+        <br>
+        <div class="projectinfo">
+            <h4>FunRooms</h4><hr>
+            <h6>Real-Time Multi-Game App & Message Room</h6>
+            <p>Full-Stack multi-game team project developed with ASP.NET Core 2.1 server with SignalR Web Sockets for real-time application. Front-end developed primarily with vanilla JavaScript, along with jQuery and Bootstrap libraries. I was responsible for the development of the Tree Growing and Snail Race games.</p>
+            <p><b><u>Features:</u></b> Social-Media 3rd Party Login, Real-Time Chat Rooms and Games, Camera Motion Detection Games.</p>
+            <ul>
+                <li><u class="gameinfobullet">Earth Defenders Game:</u> 1 Player 2-D shooter game that utilizes game framework Phaser.io</li>
+                <li><u class="gameinfobullet">Whiteboard Room:</u> Multi-User game allowing multiple users to create hand drawn images together in real-time and message each other through chat box.</li>
+                <li><u class="gameinfobullet">Tree Growing and Snail Racing Games:</u> Both games are player vs. player utilizing hand gesture motion detection from each players camera. Developed with Gest.js library for motion detection and SignalR Web Sockets for real-time multiplayer functionality.</li>
+            </ul>
+            <p><b><a href="https://github.com/thydev/funrooms">GitHub Link</a></b></p>
+        </div>
+        <div class="projectvideo">
+            <video id="FunRooms" width="950" autoplay loop>
+                <source src="FunRooms.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="projectvideo">
+            <video id="ActivityCenter" width="950" autoplay loop>
+                <source src="DojoActivityCenter.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="projectinfo">
+            <h4>Dojo Activity Center</h4><hr>
+            <h6>Activity Planner & Meet-Up App</h6>
+            <p>Full Stack application developed with Bootstrap front-end, C# ASP.NET Core 2 server back-end and PostgreSQL database. Application developed in under 5 hours as part of a test at Coding Dojo.</p>
+            <p><b><u>Features:</u></b> Google Maps API, Interactive Activity Dashboard, Completely Responsive and Mobile.</p>
+            <ul>
+                <li><u class="gameinfobullet">Activity Dashboard:</u> Users can create events and join or un-join events created by other users.</li>
+                <li><u class="gameinfobullet">Events:</u> Events page lists the people joined and Google Maps display of the event location.</li>
+                <li><u class="gameinfobullet">Mobile Application:</u> Application designed with user in mind, responsive display for all devices.</li>
+            </ul>
+            <p><b><a href="https://github.com/Jgonzalez3/DojoActivityCenter">GitHub Link</a></b></p>
+        </div>
+        <div class="projectinfo">
+            <h4>E-Commerce Dashboard</h4><hr>
+            <h6>E-Commerce Products, Orders and Customers Management Tool</h6>
+            <p>Website I developed with Bootstrap and AJAX on front-end, C# ASP.NET Core 2 on server back-end, and PostgreSQL database.</p>
+            <p><b><u>Features:</u></b> Stripe API, AJAX Real-Time Dynamic Search, Responsive Web Design.</p>
+            <ul>
+                <li><u class="gameinfobullet">Stripe API:</u> Card Payment processing API integrated with order processing functionality.</li>
+                <li><u class="gameinfobullet">Dynamic Search:</u> Products, Customers, and Orders filter searches are queried in real-time with AJAX.</li>
+                <li><u class="gameinfobullet">Management Tool:</u> Dashboard for managing E-Commerce website with ability to Create, Delete, and Track Customers, Orders, and Products.</li>
+            </ul>
+            <p><b><a href="https://github.com/Jgonzalez3/ECommerce_NETCore_EntityFramework">GitHub Link</a></b></p>
+        </div>
+        <div class="projectvideo">
+            <video id="ECommerce" width="950"  autoplay loop>
+                <source src="NetCore_ecommerce.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="projectvideo">
+            <video id="Wanderlust" width="950"  autoplay loop>
+                <source src="" type="video/mp4">
+            </video>
+        </div>
+        <div class="projectinfo">
+            <h4>Wanderlust</h4><hr>
+            <h6>E-Commerce Travel Products Website</h6>
+            <p>Responsive e-commerce website tailored to travelers. This team project utilized MEAN stack to develop a single-page web-application with Angular 6 Front-end framework, Node.js server, Express.js web-framework, MongoDB NoSQL Database, and RESTful API.</p>
+            <p><b><u>Features:</u></b> Auth0 3rd Party Authentication Login, Facial Recognition Login, Stripe API checkout, RxJS Real-Time Product Filter Search</p>
+            <ul>
+                <li><u class="gameinfobullet">Design:</u> Front-end designed as single-page app and styled with Angular Material and Bootstrap.</li>
+                <li><u class="gameinfobullet">RxJS:</u> Products are queried in real-time with a library for Reactive programming using observables.</li>
+                <li><u class="gameinfobullet">Facial Recognition:</u> User can Login and Register with Facial Recognition utilizing Kairos API and WebRTC library.</li>
+            </ul>
+            <p><b><a href="https://github.com/thydev/acommerce">GitHub Link</a></b></p>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <h3 class="text-center">Technologies and Skills</h3>
+    <hr>
+    <br>
+    <div id="techskills" class="container">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <h4>Languages</h4>
+                <hr>
+                <a href="https://www.javascript.com/"><img class="techicons" src="img/techicons/JavaScript.png"></a>
+                <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/"><img class="techicons" src="img/techicons/c-sharp.png"></a>
+                <a href="https://www.typescriptlang.org/"><img class="techicons" src="img/techicons/typescript.png"></a>
+                <a href=""><img class="techicons" src="img/techicons/python.png"></a>
+                <a href="https://www.w3.org/html/"><img class="techicons" src="img/techicons/HTML.png"></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img class="techicons" src="img/techicons/CSS.png"></a>
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>FrameWorks</h4>
+                <hr>
+                <a href="https://expressjs.com/"><img class="techicons" src="img/techicons/expressjs.png"></a>
+                <a href="https://docs.microsoft.com/en-us/aspnet/"><img class="techicons" src="img/techicons/netcore.svg"></a>
+                <a href="https://angular.io/"><img class="techicons" src="img/techicons/angular.png"></a>
+                <a href="https://getbootstrap.com/"><img class="techicons" src="img/techicons/bootstrap.png"></a>
+                <a href="https://www.djangoproject.com/"><img class="techicons" src="img/techicons/django.png"></a>
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>Databases</h4>
+                <hr>
+                <a href="https://www.mysql.com/"><img class="techicons" src="img/techicons/mysql.png"></a>
+                <a href="https://www.mongodb.com/"><img class="techicons" src="img/techicons/mongodb.png"></a>
+                <a href="https://www.postgresql.org/"><img class="techicons" src="img/techicons/postgresql.png"></a>
+                <a href="https://www.sqlite.org/index.html"><img class="techicons" src="img/techicons/sqlite.png"></a>
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>Technologies</h4>
+                <hr>
+                <a href="https://nodejs.org/en/"><img class="techicons" src="img/techicons/nodejs.png"></a>
+                <a href="http://jquery.com/"><img class="techicons" src="img/techicons/jQuery.png"></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started"><img class="techicons" src="img/techicons/ajax.png"></a>
+                <a href="https://socket.io/"><img class="techicons" src="img/techicons/socket.png"></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <div class="row" style="height: 100%;">
+            <div class="col-sm-6">
+                <h4 class="text-center text-success">Javier Gonzalez</h4>
+                <h5 class="text-center text-light">Seattle, WA</h5>
+                <h6 class="text-center text-light">Contact Me:</h6>
+                <div id="footercontact" class="text-center">
+                    <li><a href="mailto:javig56@gmail.com"><img class="icon" src="img/contactme/gmail-logo-icon.png"></a> <a href="mailto:javig56@gmail.com" class="contact">javig56@gmail.com</a>
+                    <li><a href="https://www.linkedin.com/in/javier-gonzalez3/"><img class="icon" src="img/contactme/linkedin.png"></a><a class="contact" href="https://www.linkedin.com/in/javier-gonzalez3/">javier-gonzalez3</a></li> 
+                    <li><a href="https://github.com/Jgonzalez3"><img class="icon" src="img/contactme/github.png"></a><a href="https://github.com/Jgonzalez3">Jgonzalez3</a></li>
+                    </div>
+            </div>
+            <div class="col-sm-6" style="height: 100%;">
+                <iframe frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCLzC_v6DaZMiInBKOZNvII3Zz2LRUlKqg&q=Seattle,WA" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

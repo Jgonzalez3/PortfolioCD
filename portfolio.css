@@ -1,0 +1,158 @@
+.header{
+    padding-top: 80px;
+}
+#title{
+    color: #00BA51;
+    /* text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; */
+}
+.icon{
+    width: 50px; 
+    height: 50px;
+    margin: 10px;
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition:  0.6s ease-out;
+    transition:  0.6s ease-out;
+}
+.icon:hover, .icon:active{
+    -webkit-transform: rotateZ(720deg);
+    -moz-transform: rotateZ(720deg);
+    transform: rotateZ(720deg);
+}
+.techicons{
+    width: 100px; 
+    height: 100px;
+    margin: 10px;
+}
+.contact-box{
+    margin: 0 auto;
+    padding: 20px;
+    border: solid #00BA51 7px;
+    /* outline: solid black 2px; */
+    width: 80%;
+}
+.contact{
+    font-weight: bold;
+}
+#aboutMeTitle, #aboutMePostCollege{
+    background-color: rgb(238, 247, 253);
+    margin-right: -5px;
+    background-size: flex;
+    width: 43.5%;
+    display: inline-block;
+    vertical-align: top;
+    height: 370px;
+}
+#aboutMeHobbies{
+    background-color: rgb(255, 255, 241);
+    background-size: flex;
+    width: 64.7%;
+    display: inline-block;
+    vertical-align: top;
+    height: 370px;
+    margin-left: -5px;
+    overflow: hidden;
+}
+#aboutMeHobbies:hover, #aboutMeHobbies:active{
+    overflow-y: scroll;
+}
+#aboutme p{
+    padding: 10px 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+#spaceNeedle, #codeBlock{
+    width: 56.35%;
+    height: 370px;
+    display: inline-block;
+    vertical-align: top;
+}
+#money{
+    width: 35%;
+    height: 370px;
+    display: inline-block;
+    vertical-align: top;
+}
+#hollywood, #huskies{
+    width: 35%;
+    height: 370px;
+    display: inline-block;
+    vertical-align: top;
+}
+#aboutMeEducation{
+    /* background-color: goldenrod; */
+    width: 29.2%;
+    height: 370px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+#aboutMeEducation:hover, #aboutMeEducation:active{
+    overflow-y: scroll;
+}
+#aboutMeTitle, #aboutMePostCollege,{
+    background-color: dodgerblue;
+}
+#videobox{
+    padding: 25px;
+}
+.projectvideo{
+    width: 70%;
+    background-color: black;
+    border-radius: 25px 25px;
+    padding: 20px 0;
+    display: inline-block;
+}
+video{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+}
+.projectinfo{
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    width: 27%;
+    vertical-align: top;
+}
+hr{
+    border-top-width: 3px;
+    border-top-color: #00BA51;
+    width: 80%;
+}
+li:hover{
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: dodgerblue;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px transparent;
+}
+.gameinfobullet{
+    color: #00BA51;
+}
+iframe{
+    width: 90%;
+    height: 100%;
+}
+footer{
+    height: 350px;
+    padding: 20px;
+    background-color: black;
+}
+#footercontact{
+    background-color: white;
+    list-style: none;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px 20px;
+    font-weight: bold;
+}
