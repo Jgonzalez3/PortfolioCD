@@ -1,5 +1,7 @@
 .header{
     padding-top: 80px;
+    background-color: black;
+    background-size: cover;
 }
 #title{
     color: #00BA51;
@@ -30,8 +32,10 @@
     margin: 0 auto;
     padding: 20px;
     border: solid #00BA51 7px;
-    /* outline: solid black 2px; */
+    /* outline: solid purple 4px; */
     width: 80%;
+    background-color: white;
+    border-radius: 15px 15px;
 }
 .contact{
     font-weight: bold;
@@ -147,6 +151,7 @@ footer{
     height: 350px;
     padding: 20px;
     background-color: black;
+    background-size: cover;
 }
 #footercontact{
     background-color: white;
